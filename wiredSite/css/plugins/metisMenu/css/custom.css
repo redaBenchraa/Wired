@@ -1,0 +1,400 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+/*
+Change Quick Sidebar Width
+*/
+
+/*
+.page-quick-sidebar-wrapper {
+  right: -370px;
+  width: 370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content .page-sidebar-wrapper {
+  margin-left: -370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content .page-footer {
+  margin-right: 370px;
+  margin-left: -370px;
+}
+
+.page-sidebar-reversed.page-quick-sidebar-open.page-quick-sidebar-push-content .page-sidebar-wrapper {
+  margin-right: 370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content.page-quick-sidebar-full-height .page-header {
+  margin-left: -370px;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-list {
+  width: 370px !important;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-item {
+  width: 370px !important;
+  margin-left: 370px;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-content-item-shown .page-quick-sidebar-list {
+  margin-left: -370px;
+}
+*/
+.page-bar{
+  color:#fff;
+
+}
+#page-bar-contact
+{
+z-index: 1;
+background: no-repeat center;
+background-size: cover;
+-webkit-filter: blur(15px);
+-moz-filter: blur(15px);
+-o-filter: blur(15px);
+-ms-filter: blur(15px);
+filter: blur(15px);
+width: 105%;
+height: 395px;
+margin-left: -15px;
+margin-top: -15px;
+overflow: hidden;
+
+}
+
+
+ .page-content  .page-bar .page-view-pic {
+    background: rgba(39, 113, 162, 0.49) none repeat scroll 0% 0%;
+    padding: 5px 30px;
+    text-align: right;
+    position: relative;
+    margin: 40px -20px 40px;
+}
+
+.page-bar .pic-container {
+    display: inline-block;
+    border-radius: 100% !important;
+}
+.page-bar .pic-container img {
+    border-radius: 100% !important;
+    height: 115px;
+    width: 115px;
+}
+.profile-content-wrap{
+    algin-content:center;
+}
+
+.profile-complet{
+  color: #fff;
+ margin-left: 0px;
+}
+.mt-card-item{
+  padding: 5px !important;
+  margin-left: 5px;
+}
+/*
+.front {
+    height: inherit;
+    position: absolute;
+    top: 0;
+    z-index: 900;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.back {
+    height: inherit;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+*/
+/*.flip-container {
+  perspective: 1000;
+}
+  /* flip the pane when hovered    .flip-container:hover .flipper,*/
+ /*.flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+ .flip-container.hover .back {
+    display: block;
+
+  }
+   .flip-container.hover .front {
+    display: none;
+  }
+   .flip-container .back {
+    display: none;
+  }
+   .flip-container .front {
+    display: block;
+  }
+
+
+/* 
+.flip-container, .front, .back {
+  width: 320px;
+  height: 480px;
+}
+flip speed goes here */
+/*.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}*/
+
+/* hide back of pane during swap */
+
+
+/* front pane, placed above back */
+/*.front {
+  z-index: 2;
+
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+/*.back {
+  transform: rotateY(180deg);
+
+}
+  .flip-container .back .mt-overlay-1{
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+@media only screen and (min-width: 992px){
+  .flip-container .back .mt-overlay-1{
+    max-height: 170px !important;
+  }
+  .back {
+    min-height: 175px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1600px){
+    .flip-container .back .mt-overlay-1{
+      max-height: 200px !important;
+    }
+  .back {
+    min-height: 227px;
+    margin-bottom: 20px;
+  }
+
+}*/
+
+/* Search */
+.header-search-wrapper{
+  
+  margin: 0 0 0 50px;
+  padding: 0;
+  float: left;
+  width: 500px;
+  border: 0 !important;
+}
+
+.header-search-wrapper .header-search{
+    padding: 0;
+    margin: 5px 18px;
+ 
+
+}
+
+.header-search-wrapper .header-search .input-group{
+      border-bottom: 1px solid #435060;
+       height: 10px !important;
+}
+.header-search-wrapper .header-search .input-group .form-control{
+    border: 0;
+  font-size: 14px;
+  height: auto;
+  line-height: auto;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #2b3643;
+  color: #435060;
+}
+.header-search-wrapper .header-search .input-group .form-control:focus{
+  background-color: #2C3E50;
+  box-shadow: 15px 0 0 0px #2C3E50 !important;
+  z-index: -1;
+}
+.header-search-wrapper .header-search  .input-group .input-group-btn .btn {
+  padding: 2px 0 0 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 100% 3px;
+}
+.header-search-wrapper .header-search  .input-group .input-group-btn .btn > i {
+      color: #4e5c6f;
+      z-index: 1;
+}
+/*
+.header-search-wrapper .header-search .input-group .input-group-btn .btn > i{
+    font-size: 15px;
+}*/
+
+/* Contact Card */
+/*
+.mt-element-card{
+}
+.mt-element-card .mt-card-item{
+  width: 100% !important;
+  padding: 0 !important;
+  padding-bottom: -1px !important;
+  border-top-left-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+  max-height: 85px;
+}
+.mt-element-card .mt-card-item a{
+  text-decoration: none;
+  color: none;
+}
+*/
+.mt-element-ribbon  #noavatar{
+width: 122px;
+height: 122px;
+text-align: center;
+font-size: 35px;
+line-height: 122px;
+
+}
+.mt-element-ribbon{
+  max-height: 350px !important;
+  padding: 15px;
+}
+.mt-element-card .mt-card-item .mt-overlay-1{
+  width: 30%;
+  height: 30%;
+}
+.mt-element-card .mt-card-item .mt-card-avatar {
+  padding: 0px !important;
+  margin-bottom: 0px;
+}
+
+.mt-element-card  .mt-card-item{
+  max-width: 350px;
+  margin-right: 20px !important;
+} 
+/* DevSection */
+
+.divider-section {
+    position: relative;
+    z-index: 1;
+    margin-left: -20px !important;
+    }
+   .divider-section:before {
+        border-top: 2px solid #dfdfdf;
+        content:"";
+        margin: 0 auto; /* this centers the line to the full width specified */
+        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 95%;
+        z-index: -1; }
+
+    .divider-title { 
+        /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+        background: #fff !important; 
+        padding: 0 15px; 
+    }
+.portlet.light{
+  padding: 12px 30px 15px;
+}
+
+/* Search media-list list-item*/
+#result{
+}
+#result .media-list .media {
+    padding: 15px 13px 14px 13px;
+
+}
+#result .media-list .media a{
+  text-decoration: none;
+}
+#result .media-list .media .media-object {
+  border-radius: 50% !important;
+  width: 38.57143px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  float: left;
+  margin-right: 10px;
+}
+
+#result .media-list .media .media-object:before,#result .media-list .media .media-object:after{
+    content: " ";
+  display: table;
+}
+#result .media-list .media {
+    cursor: pointer;
+}
+#result .media-list .media:hover .media-object{
+    opacity: 1;
+  filter: alpha(opacity=100);
+}
+#result .media-list .media .media-body .media-headin{
+    margin: 5px 0 0 0;
+  font-size: 14px;
+}
+#result .media-list .media .media-body .media-heading-sub{
+  font-size: 11px;
+  text-transform: uppercase;
+}
+#result .media-list .media .media-body .media-heading-small {
+    font-size: 10px;
+}
+#result .media-list .media .media-status  {
+    margin-top: 10px;
+  right: 10px;
+  position: absolute;
+  display: inline-block;
+}
+.page-header.navbar .search-form.search-form-expanded {
+    width: 250px;
+  }
+
+.imgsidebar{
+  width: 70%;
+
+  }
